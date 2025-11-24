@@ -1,0 +1,23 @@
+﻿{
+  "name": "work.ctrl3d.radio-station",
+  "version": "0.1.0",
+  "displayName": "RadioStation",
+  "description": "",
+  "unity": "2022.3",
+  "documentationUrl": "https://ctrl3d.github.io/RadioStation",
+  "changelogUrl": "https://github.com/ctrl3d/RadioStation/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ctrl3d/RadioStation/blob/main/LICENSE",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  },
+  "keywords": [
+    "unity",
+    "json",
+    "config"
+  ],
+  "author": {
+    "name": "Seungmin Lee",
+    "email": "ctrl3d@gmail.com",
+    "url": "https://ctrl3d.work"
+  }
+}

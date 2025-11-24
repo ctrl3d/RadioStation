@@ -14,20 +14,10 @@ namespace work.ctrl3d.Editor
         private const string UniTaskGitUrl =
             "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask";
         
-        private const string NewtonsoftPackageId = "com.unity.nuget.newtonsoft-json";
-        
         static PackageInstaller()
         {
             var isUniTaskInstalled = CheckPackageInstalled(UniTaskName);
             if (!isUniTaskInstalled) AddGitPackage(UniTaskName, UniTaskGitUrl);
-            
-            var isNewtonsoftInstalled = CheckPackageInstalled(NewtonsoftPackageId);
-            if (!isNewtonsoftInstalled) AddPackage(NewtonsoftPackageId);
-        }
-
-        private static void AddPackage(string packageName)
-        {
-            Client.Add(packageName);
         }
 
         private static void AddGitPackage(string packageName, string gitUrl)
